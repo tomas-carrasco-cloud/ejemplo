@@ -1,0 +1,44 @@
+
+
+header#Cabezera{
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: black;
+	padding-top: 33px;
+	padding-bottom: 10px
+}
+header#Cabezera figure{
+	float:left;
+	
+}
+header#Cabezera nav{
+	float:right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+header#Cabezera nav a{
+	margin-right: 10px;
+	color:white;
+	font-size: 20px;
+}
+header#mnuNav nav{
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color:green;
+	width: 100%;
+	height: auto;
+	
+	 
+}
+header#mnuNav nav ul li{
+	display: inline-block;
+
+}
+header#mnuNav nav ul li{
+	color:blue;
+	width: 19.7%;
+	border:1px solid red;
+}
