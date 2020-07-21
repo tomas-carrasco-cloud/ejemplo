@@ -3,19 +3,26 @@
 header#Cabezera{
 	width: 100%;
 	margin: 0 auto;
-	height: 200px;
+	height: 220px;
 	background-color: black;
 	padding-top: 33px;
 	padding-bottom: 10px
 }
 header#Cabezera figure{
 	float:left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	
 }
 header#Cabezera nav{
 	float:right;
 	margin-right: 20px;
-	margin-top: 20px;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: black;
 }
 header#Cabezera nav a{
 	margin-right: 10px;
@@ -38,7 +45,16 @@ header#mnuNav nav ul li{
 
 }
 header#mnuNav nav ul li{
-	color:blue;
+	color:orange;
 	width: 19.7%;
-	border:1px solid red;
+	padding: 10px;
+}
+header#mnuNav nav ul li a:hover{
+	border-bottom: 2px solid red;
+	color:red;
+	text-decoration: none;
+}
+.compraOnline{
+	padding: 1px solid brown;
+	padding:0;
 }
