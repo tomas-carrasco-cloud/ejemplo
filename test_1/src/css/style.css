@@ -9,10 +9,7 @@ header#Cabezera{
 	padding-bottom: 10px
 }
 header#Cabezera figure{
-	float:left;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	float:left;	
 	
 }
 header#Cabezera nav{
@@ -58,3 +55,22 @@ header#mnuNav nav ul li a:hover{
 	padding: 1px solid brown;
 	padding:0;
 }
+
+
+/*tablet*/
+@media screen and (min-width:500px) and (max-width:700px)
+{
+	
+	header#Cabezera nav a{
+		font-size: 18px;
+	}
+}
+
+/*celular*/
+@media screen and (max-width:500px)
+{
+	header#Cabezera nav a{
+		font-size: 15px;
+	}
+}
+
